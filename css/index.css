@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script'); @import url('https://fonts.googleapis.com/css?family=Noto+Serif'); @import url('https://fonts.googleapis.com/css?family=Ruslan+Display'); body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #000;
+    // font-family: 'Marck Script', cursive;
+    font-family: 'Noto Serif', serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.bg {
+    background-image: url("../img/background3.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -1px 3px 10px 0px #fff;
+}
+
+.bg2 {
+    background-image: url("../img/background2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#mySidenav {
+    margin-top: 30px;
+}
+
+#mySidenav a {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkslategray;
+    border-radius: 0 5px 5px 0;
+    box-shadow: inset -3px -5px 5px;
+}
+
+#about {
+}
+
+#health {
+}
+
+#inform {
+}
+
+.navbtn {
+    background-color: #CF7B0AFF;
+}
+
+.navbtn:hover {
+    background-color: #C9C9C9;
+    cursor: pointer;
+}
+
+a.scroll-btn {
+    position: absolute;
+    right: 50%;
+    top: 90%;
+}
+
+a span {
+    box-shadow: -4px 4px 3px 0px #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 2s infinite;
+    animation: sdb 2s infinite;
+    opacity: 0;
+    box-sizing: border-box;
+}
+
+a span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+a span:nth-of-type(2) {
+    top: 16px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+}
+
+a span:nth-of-type(3) {
+    top: 32px;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+@-webkit-keyframes sdb {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes sdb {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.top-name {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    width: 60%;
+}
+
+.top-name h1 {
+    margin: 0;
+    font-family: 'Ruslan Display', cursive;
+    font-size: 70px;
+    text-shadow: 3px 3px 5px;
+}
+
+.top-name p {
+    margin: 0;
+    font-size: 25px;
+}
+
+.timer {
+    color: #FF0100FF;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+}
+
+.txt-context {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.txt-context div {
+    width: 45%;
+    margin-top: 30px;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+}
+
+.txt-context p {
+    text-align: justify;
+}
+
+#honey {
+    width: 37%;
+}
+
+#honey h3 {
+    font-family: 'Marck Script', cursive;
+}
+
+.modal-body img {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+
+.loaderArea {
+    background: #fff;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+}
+
+.loader {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 40%;
+    margin-left: -20px;
+    top: 20%;
+    margin-top: -20px;
+}
+
+.loader:before, .loader:after {
+    content: "";
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+}
+
+.map {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bee {
+    width: 20%;
+    position: absolute;
+    right: 13%;
+    margin-top: 30px;
+}
+
+iframe {
+    width: 60%;
+    height: 100%;
+}
