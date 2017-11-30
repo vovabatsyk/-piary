@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Marck+Script'); @import url('https://fonts.googleapis.com/css?family=Noto+Serif'); @import url('https://fonts.googleapis.com/css?family=Ruslan+Display'); body, html {
+@import url('https://fonts.googleapis.com/css?family=Marck+Script'); 
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif'); 
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display'); 
+body, html {
     height: 100%;
     margin: 0;
     background-color: #000;
-    // font-family: 'Marck Script', cursive;
     font-family: 'Noto Serif', serif;
 }
 
@@ -11,8 +13,8 @@ body {
     max-width: 1400px;
 }
 
-.bg {
-    background-image: url("../img/background3.jpg");
+.first-bg {
+    background-image: url("../img/background-first.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,15 +22,15 @@ body {
     box-shadow: -1px 3px 10px 0px #fff;
 }
 
-.bg2 {
-    background-image: url("../img/background2.jpg");
+.second-bg {
+    background-image: url("../img/background-second.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#footer {
+#header {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -38,11 +40,11 @@ body {
     flex-direction: row;
 }
 
-#mySidenav {
+#sideNav {
     margin-top: 30px;
 }
 
-#mySidenav a {
+#sideNav a {
     margin-top: 5px;
     display: flex;
     flex-direction: row;
