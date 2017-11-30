@@ -246,3 +246,10 @@ iframe {
     width: 60%;
     height: 100%;
 }
+
+#logoV {
+    width: 100px;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
