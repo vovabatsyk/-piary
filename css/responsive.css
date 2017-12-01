@@ -1,0 +1,45 @@
+@media screen and (max-width: 1163px) {
+	.address {
+		margin-right: 1%;
+	}
+
+	#autoSlide {
+		width: 600px;
+	}
+
+	iframe {
+		height: 243px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	html {
+		background: url(../img/background-first.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+	}
+
+	body {
+		background: none;
+	}
+
+	.first-bg{
+		background: none;
+		height: fit-content;
+	}
+
+	.second-bg {
+		background: none;
+	}
+
+	#autoSlide {
+		width: 100%;
+	}
+
+	.address {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+

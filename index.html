@@ -2,11 +2,14 @@
 <html lang="uk">
     <head>
         <meta charset="UTF-8">
-        <title>еко-курорт Пасіка сон на бджолиних вуликах</title>
+        <title>еко-курорт Пасіка сон на бджолиних вуликах, найкращий мед</title>
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/modal-windows.css">
         <link rel="stylesheet" href="css/form.css">
         <link rel="stylesheet" href="css/slide.css">
+        <link rel="stylesheet" href="css/button-call.css">
+        <link rel="stylesheet" media="(max-width: 1163px)" href="css/responsive.css">
+
     </head>
     <body>
         <div class="loaderArea">
@@ -26,6 +29,7 @@
                         </a>
                     </div>
                 </nav>
+                <img src="img/bee.png" id="bee" alt="Бджола">
                 <div class="top-name">
                     <h1>"Пасіка"</h1>
                     <p>еко-курорт</p>
@@ -109,9 +113,7 @@
                 <span></span>
             </a>
         </section>
-        <h1></h1>
         <section class="second-bg">
-            <img src="img/bee.png" class="bee" alt="Бджола">
             <div id="autoSlide">
                 <div class="slideshow-container">
                     <div class="mySlides fade">
@@ -143,21 +145,32 @@
                     <span class="dot "></span>
                 </div>
             </div>
-            <div class="map ">
-                <div>
-                    <h3>Як доїхати?</h3>
-                    <address>Львівська обл., Камянко-Бузький р-н, с, Жовтанці</address>
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.3566099483664!2d24.23674911542061!3d50.00467087941628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ace2f6a81868d%3A0x88e04b91109fb7e9!2z0J_QsNGB0ZbQutCwICjQodC_0LDQvdC90Y8g0L3QsCDQsdC00LbQvtC70LjQvdC40YUg0LLRg9C70LjQutCw0YUp!5e0!3m2!1suk!2sua!4v1511989167316 " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+            <div class="address">
+                <h3>Як доїхати?</h3>
+                <address>Львівська обл., Камянко-Бузький р-н, с, Жовтанці</address>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d656475.2904999743!2d24.238938!3d50.004671!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x88e04b91109fb7e9!2z0J_QsNGB0ZbQutCwICjQodC_0LDQvdC90Y8g0L3QsCDQsdC00LbQvtC70LjQvdC40YUg0LLRg9C70LjQutCw0YUp!5e0!3m2!1suk!2sua!4v1512065358888" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-            <img src="img/logoV.png" id="logoV"alt="Логотип">
         </section>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous "></script>
-        <script src="https://use.fontawesome.com/28b6f16a9b.js "></script>
-        <script src="js/timer.js "></script>
-        <script src="js/loader.js "></script>
-        <script src="js/index.js "></script>
-        <script src="js/modal-window.js "></script>
-        <script src="js/form.js "></script>
-    </body>
-</html>
+        <div id="phoneDropdown" class="dropdown-content">
+            <a href="tel:+380989119727">+38 098 9119 727</a>
+            <a href="tel:+380632021517">+38 063 2021 517</a>
+        </div>
+</div>
+<div class="dropbtn" onclick="showPhoneNumber()" id="popupToggle">
+    <div class="circlephone" style="transform-origin: center;"></div>
+    <div class="circle-fill" style="transform-origin: center;"></div>
+    <div class="img-circle" style="transform-origin: center;">
+        <div class="img-circleblock" style="transform-origin: center;"></div>
+    </div>
+</div>
+<footer>
+    <img src="img/logoV.png" id="logoV" alt="Логотип">
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous "></script>
+<script src="https://use.fontawesome.com/28b6f16a9b.js "></script>
+<script src="js/timer.js "></script>
+<script src="js/loader.js "></script>
+<script src="js/index.js "></script>
+<script src="js/modal-window.js "></script>
+<script src="js/form.js "></script>
+</body></html>

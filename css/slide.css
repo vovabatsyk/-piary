@@ -8,7 +8,7 @@
 
 .slideshow-container {
     position: static;
-    width: 50%;
+    width: 100%;
 }
 
 .alldots {
@@ -55,3 +55,8 @@
         opacity: 1;
     }
 }
+
+#autoSlide {
+    width: 700px;
+}
+
