@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Marck+Script'); 
+@import url('https://fonts.googleapis.com/css?family=Marck+Script'); @import url('https://fonts.googleapis.com/css?family=Noto+Serif'); @import url('https://fonts.googleapis.com/css?family=Ruslan+Display'); 
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif'); 
-@import url('https://fonts.googleapis.com/css?family=Ruslan+Display'); 
 body, html {
     height: 100%;
     margin: 0;
@@ -154,9 +152,7 @@ a span:nth-of-type(3) {
 }
 
 .txt-context {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
 }
 
 .txt-context div {
@@ -222,7 +218,6 @@ a span:nth-of-type(3) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 iframe {
@@ -256,7 +251,7 @@ iframe {
     display: none;
     bottom: 135px;
     right: 0px;
-    position: fixed;    
+    position: fixed;
     background-color: #f9f9f9;
     min-width: 160px;
     overflow: auto;
@@ -276,5 +271,5 @@ iframe {
 }
 
 .show {
-    display:block;
+    display: block;
 }

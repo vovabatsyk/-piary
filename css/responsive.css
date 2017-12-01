@@ -29,6 +29,21 @@
 		height: fit-content;
 	}
 
+	.txt-context {
+		flex-direction: column;
+	}
+
+	.txt-context div {
+		width: 100%;
+		margin: 0;
+	}
+
+	.timer {
+		width: 100%;
+		text-align: center;
+		margin-left: 11%;
+	}
+
 	.second-bg {
 		background: none;
 	}
@@ -38,8 +53,79 @@
 	}
 
 	.address {
-		width: 80%;
-		margin-left: 10%;
+		width: 100%;
+		margin: 0;
 	}
-}
 
+	iframe {
+		height: 420px;
+	}
+
+	.top-name {
+		width: 85%;
+	}
+
+	.top-name h1 {
+		font-size: 145px;
+	}
+
+	h2{
+		font-size: 29px;
+	}
+
+	.form-modal-content {
+		width: 870px;
+	}
+
+	form {
+		text-align: center;
+	}
+
+	input[type=email] {
+		width: 800px;
+	}
+
+	input[type=text] {
+		width: 800px;
+	}
+
+	textarea {
+		width: 811px;
+	}
+
+	input[type=submit] {
+		left: 0;
+		width: 200px; 
+		height: 50px;
+	}
+
+	.circlephone {
+		width: 250px;
+		height: 250px;
+	}
+
+	.circle-fill {
+		width: 200px;
+		height: 200px;
+	}
+
+	.img-circle {
+		width: 150px;
+		height: 150px;
+		bottom: 26px;
+		right: 62px
+	}
+
+	.img-circleblock {
+		width: 150px;
+		height: 150px;
+	}
+
+	.dropdown-content {
+		bottom: 215px;
+		width: 400px;
+	}
+
+	.dropdown-content a {
+		font-size: 45px;
+	}
