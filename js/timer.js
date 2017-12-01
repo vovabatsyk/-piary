@@ -17,7 +17,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in an element with id="demo"
-  document.getElementById("expired").innerHTML = days + "дн. " + hours + "год. "
+  document.getElementById("expired").innerHTML = "До початку сезону залишилось : " + days + "дн. " + hours + "год. "
   + minutes + "хв. " + seconds + "с. ";
 
   // If the count down is finished, write some text 
