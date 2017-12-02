@@ -1,0 +1,28 @@
+.loaderArea {
+    background: #fff;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+}
+
+.loader {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 40%;
+    margin-left: -20px;
+    top: 20%;
+    margin-top: -20px;
+}
+
+.loader:before, .loader:after {
+    content: "";
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+}

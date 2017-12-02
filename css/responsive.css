@@ -5,6 +5,10 @@
 		background-position: center;
 		background-size: cover;
 		margin: 0;
+		padding: 0;
+	}
+	body {
+		width: : 100%;
 	}
 
 	main {
@@ -77,7 +81,11 @@
 	}
 
 	#autoSlide {
-		width: 100%;
+		width: 101%;
+	}
+
+	.slideshow-container {
+		width: 101%;
 	}
 
 	.address {
@@ -86,12 +94,16 @@
 	}
 
 	.map {
-		width: 100%;
+		width: 101%;
 	}
 
 	iframe {
-		width: 100%;
+		width: 101%;
 		height: 700px;
+	}
+
+	footer {
+		width: 101%;
 	}
 
 }
