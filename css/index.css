@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
-
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
 html {
     height: 100%;
     background: #000;
@@ -20,7 +20,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;s
+    flex-direction: column;
 }
 
 header {
@@ -32,6 +32,10 @@ header {
     width: 80%;
     text-align: center;
 
+}
+
+.name h3 {
+    margin: 0;
 }
 
 h1 {
@@ -55,13 +59,18 @@ h1 {
     padding-left: 10px;
     font-family: 'Marck Script', cursive;
     font-size: 18px;
+    margin: 0;
+}
+
+.honey img {
+    width: 55%;
 }
 
 .description {
     width: 665px;
     text-align: justify;
     justify-content: space-around;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Marck Script', cursive;
 }
 
@@ -73,6 +82,12 @@ h1 {
     color: #FF000CFF;
     width: 100%;
     text-align: center;
+}
+
+#bee {
+    width: 60px;
+    position: absolute;
+    top: -100px;
 }
 
 #contacts {
@@ -114,17 +129,13 @@ h1 {
 iframe {
     width: 90%;
     height: 350px;
+    border: 0;
 }
 
 .address {
     width: 512px;
     text-align: center;
     font-family: 'Ruslan Display', cursive;
-}
-
-footer {
-    height: 100px;
-    background: #fff;
 }
 
 a.scroll-btn {
@@ -196,3 +207,68 @@ a span:nth-of-type(3) {
     }
 }
 
+.txt-context {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.txt-context div {
+    width: 45%;
+    margin-top: 30px;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+}
+
+.txt-context p {
+    text-align: justify;
+}
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    bottom: 135px;
+    right: 0px;
+    position: fixed;    
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #23E816
+}
+
+.show {
+    display:block;
+}
+
+footer {
+    background-color: #F60;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h2 {
+    margin: 0;
+    font-family: 'Ruslan Display', cursive;
+}
+
+footer img {
+    width: 100px;
+    height: 50px;
+}
