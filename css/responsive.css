@@ -150,10 +150,4 @@
 		height: 300px;
 		font-size: 75px;
 	}
-
-	input[type=submit] {
-		width: 220px;
-		height: 90px;
-		font-size: 60px;
-	}
 }
