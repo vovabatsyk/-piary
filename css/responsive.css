@@ -124,7 +124,7 @@
 		width: 150px;
 		height: 150px;
 		bottom: 27px;
-    right: 59px;
+		right: 59px;
 	}
 	.img-circleblock {
 		width: 150px;	
@@ -138,5 +138,22 @@
 	.dropdown-content {
 		bottom: 220px;
 		right: 5px;
+	}
+
+
+	input[type=text],
+	input[type=email] {
+		font-size: 75px;
+	}
+
+	textarea {
+		height: 300px;
+		font-size: 75px;
+	}
+
+	input[type=submit] {
+		width: 220px;
+		height: 90px;
+		font-size: 60px;
 	}
 }
